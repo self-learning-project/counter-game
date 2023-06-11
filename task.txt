@@ -1,0 +1,19 @@
+// 2D game 3 days
+// WAP in js using html to build clieck me gam.
+
+// Ask user to input his or her name on a button click name d ENter your name
+// ask use to input the name unless he/hse tries with null value
+//  once hte uuser enter the name, disable the button
+
+//btn => document.getElementById('btnID').setAttribut
+
+//place another button just beside the first , this button should be default disabled
+//but when user enter the name this should eb enabled. The label onnthe button shbould be
+// Click me
+// when the user first click on the second Button(Click me), start a tiemr for 5 sec
+//Store the count how many times the user has clickd the button
+// after 5 sec of first click, Reset the counter so that without reloading the page, the
+//game should be reset.
+
+
+GIT

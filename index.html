@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        margin-top: 10px;
+        width: 50%;
+      }
+
+      td,
+      th {
+        border: 1px solid #000000;
+        text-align: left;
+        padding: 8px;
+      }
+      button {
+        padding: 12px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button[disabled="disabled"] {
+        pointer-events: none;
+      }
+    </style>
+    <title>Assignment Game</title>
+  </head>
+  <body>
+    <button id="btn-name" onclick="handleOnClickName()">Enter Your Name</button>
+    <button id="btn-count" onclick="handleOnClick()">Click Here</button>
+    <div id="user-data"></div>
+
+    <div id="count"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
