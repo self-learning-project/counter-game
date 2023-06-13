@@ -25,10 +25,18 @@
       button[disabled="disabled"] {
         pointer-events: none;
       }
+      #btn-name {
+        margin-top: 10px;
+      }
     </style>
     <title>Assignment Game</title>
   </head>
   <body>
+    <div>
+      <span id="name"></span>
+      <span id="count"></span>
+    </div>
+
     <button id="btn-name" onclick="handleOnClickName()">Enter Your Name</button>
     <button id="btn-count" onclick="handleOnClick()">Click Here</button>
     <div id="user-data"></div>

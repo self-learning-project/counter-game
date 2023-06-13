@@ -20,6 +20,8 @@ const handleOnClick = () => {
     startTimer();
   }
   userCount++;
+  document.getElementById("name").innerHTML = `( Name: ${userName})`;
+  document.getElementById("count").innerHTML = `( Count: ${userCount} )`;
 };
 const handleOnClickName = () => {
   getUsername();
